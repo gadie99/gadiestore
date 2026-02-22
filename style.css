@@ -1,0 +1,31 @@
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+/* Body */
+body { font-family: Arial, sans-serif; line-height: 1.6; background: #f7f7f7; color: #333; }
+
+/* Header */
+header { display: flex; justify-content: space-between; align-items: center; padding: 20px; background: #222; color: #fff; }
+header .logo { font-size: 24px; font-weight: bold; }
+header nav a { color: #fff; margin-left: 15px; text-decoration: none; }
+header nav a:hover { text-decoration: underline; }
+
+/* Hero */
+.hero { text-align: center; padding: 100px 20px; background: #4CAF50; color: #fff; }
+.hero h1 { font-size: 36px; margin-bottom: 10px; }
+.hero p { font-size: 18px; margin-bottom: 20px; }
+.hero .btn { text-decoration: none; background: #fff; color: #4CAF50; padding: 10px 20px; border-radius: 5px; }
+
+/* Products */
+.products, .guides { padding: 50px 20px; text-align: center; }
+.products h2, .guides h2, .about h2 { margin-bottom: 30px; font-size: 28px; color: #222; }
+.product-grid, .guide-grid { display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; }
+.product-card, .guide-card { background: #fff; padding: 20px; border-radius: 8px; width: 250px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.product-card img { width: 100%; height: 150px; object-fit: cover; border-radius: 5px; margin-bottom: 10px; }
+.buy-btn, .read-btn { text-decoration: none; display: inline-block; margin-top: 10px; background: #4CAF50; color: #fff; padding: 8px 15px; border-radius: 5px; }
+
+/* About */
+.about { background: #eee; padding: 50px 20px; text-align: center; }
+
+/* Footer */
+footer { background: #222; color: #fff; text-align: center; padding: 20px; margin-top: 20px; }
